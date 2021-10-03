@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:src="@drawable/ic_group_215"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell us what went wrong"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="21dp"
+        android:textSize="20dp"
+        android:textColor="#333333"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rect_bg"
+            android:paddingVertical="6dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ellipse_41"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking created by mistake"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#767575"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rect_bg"
+            android:paddingVertical="6dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ellipse_41"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plan Changed"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#767575"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rect_bg"
+            android:paddingVertical="6dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ellipse_41"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Found a better option"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#767575"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rect_bg"
+            android:paddingVertical="6dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ellipse_41"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unsatisfactory customer service"
+                android:layout_marginLeft="10dp"
+                android:textSize="19.9dp"
+                android:textColor="#767575"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rect_bg"
+            android:paddingVertical="6dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ellipse_41"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Property was in poor condition"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#767575"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rect_bg"
+            android:paddingVertical="6dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ellipse_41"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Reasons"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#767575"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:background="@drawable/line_bg"
+        android:layout_marginBottom="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="19.5dp"
+        android:layout_marginVertical="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancellation Charges"
+            android:textColor="#767575"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 Rs."
+            android:textColor="#767575"
+            android:textSize="18dp"
+            android:layout_marginLeft="132dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:background="@drawable/line_bg"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="23.5dp"/>
+
+</LinearLayout>
